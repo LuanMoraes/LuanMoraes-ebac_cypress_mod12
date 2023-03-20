@@ -1,0 +1,28 @@
+[
+    {
+    "nome": "Luan",
+    "sobrenome":"Teste",
+    "empresa": "EBAC",
+    "pais": "Brasil",
+    "endereco": "Av. Torquato",
+    "numero":"100",
+    "cidade":"Manaus",
+    "estado":"Amazonas",
+    "cep":"02005000",
+    "telefone":"50006554",
+    "email":"luan@teste.com"
+    },
+    {
+    "nome": "João",
+    "sobrenome":"John",
+    "empresa": "EBAC",
+    "pais": "Brasil",
+    "endereco": "Av. Ajuricaba",
+    "numero":"400",
+    "cidade":"Manaus",
+    "estado":"Amazonas",
+    "cep":"50023000",
+    "telefone":"98887788",
+    "email":"joao.jhon@teste.com"
+    }
+]
