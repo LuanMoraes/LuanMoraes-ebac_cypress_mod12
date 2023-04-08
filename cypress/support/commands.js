@@ -31,7 +31,6 @@ Cypress.Commands.add('login', (usuario, senha) => {
     cy.get('.woocommerce-form > .button').click()
 });
 
-
 Cypress.Commands.add('addProduto', (produto, tamanho, cor, quantidade) => {
     cy.get('[class="product-block grid"]').contains(produto).click()
     cy.get('.button-variable-item-' + tamanho).click()
@@ -39,4 +38,6 @@ Cypress.Commands.add('addProduto', (produto, tamanho, cor, quantidade) => {
     cy.get('.input-text').clear().type(quantidade)
     cy.get('.single_add_to_cart_button').click()
     cy.get('#primary-menu > .menu-item-629 > a').click()
+    
 })
+

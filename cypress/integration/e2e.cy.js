@@ -23,7 +23,6 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
         cy.addProduto('Stark Fundamental Hoodie','L','Blue',3)
-        cy.addProduto('Stark Fundamental Hoodie','L','Blue',3)
     });
 
 
